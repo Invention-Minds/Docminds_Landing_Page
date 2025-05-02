@@ -1,0 +1,107 @@
+/* Keyfeatures.css */
+
+.root {
+    width: 100%;
+    padding: 0px 0;
+    overflow-x: hidden !important;
+}
+
+.keyfeatures-part-2 {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.mySwiper {
+    width: 100%;
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background:0%;
+    width: 280px;
+    height: 340px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    border-radius: 10px;
+    /* transition: opacity 0.3s ease; */
+}
+
+.swiper-slide-active {
+    opacity: 1;
+    transform: scale(0.5);
+    /* transform:translate3d(-10.5px, 0px, 0px); */
+    /* margin-left: 60px; */
+}
+
+.card-1{
+    width: 320px;
+    height: 380px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.10), 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
+}
+.card-img{
+    padding: 20px;
+}
+
+.card-headding{
+    width: 241px;
+    color: var(--Blue-Gray-900, #0F172A);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%; 
+    padding: 0px 20px;
+}
+
+.card-para{
+    /* width: 240px; */
+    color: var(--Blue-Gray-900, #0F172A);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
+    padding: 20px;
+}
+element.style {
+    transition-duration: 0ms;
+    transition-delay: 0ms;
+    transform: translate3d(-740.5px, 0px, 0px);
+}
+
+
+@media(max-width:500px){
+    .keyfeatures-part-2{
+        width:583%;
+       overflow-x: hidden !important;
+       margin-left: 25px;
+    }
+
+    .card-1{
+        width: 300px;
+        height: 340px;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.10), 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
+    }
+}
+@media(max-width:380px){
+    .card-para{
+        width: 226px;
+    }
+    .card-1{
+        width: 250px;
+        height: 340px;
+        border-radius: 10px;
+    }
+    .card-headding{
+        width: 96%;
+    }
+}
+
+
+
