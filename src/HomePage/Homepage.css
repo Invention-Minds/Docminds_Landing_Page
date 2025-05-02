@@ -733,7 +733,7 @@ form {
 }
 
 .input-mail {
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 .input-msg {
@@ -903,15 +903,18 @@ form {
 
 .back-ground {
     border-radius: 50%;
-    background-color: #FFF;
-    ;
+    background-color: #FFF;;
     width: 30px;
     height: 30px;
     flex-shrink: 0;
     aspect-ratio: 1/1;
-    padding: 5px;
+    padding: 2px;
 }
 
+.youtube{
+    position: relative;
+    top: -4px;
+}
 @media(max-width:500px) {
     .top {
         display: flex;
@@ -920,6 +923,7 @@ form {
     
     .main-headding {
         font-size: 20px;
+        color: var(--White, #FFF);
     }
 
     .logo-resp {
@@ -1084,9 +1088,9 @@ form {
         padding: 10px;
     }
 
-    .para1 {
-        text-align: center;
-    }
+    /* .para1 {
+        text-align: center; 
+    } */
 
     .part3-2 {
         text-align: center;
@@ -1096,7 +1100,7 @@ form {
 
     .color1 img {
         display: block;
-        top: -100px;
+        top: 70px;
         left: 0px;
         width: 100vw;
     }
@@ -1264,8 +1268,9 @@ form {
 
     .flex2 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
        
     }
 
@@ -1343,11 +1348,11 @@ form {
     }
 
     .input-mail {
-        width: 150px;
+        width: 348px;
     }
 
     .input-number {
-        width: 150px;
+        width: 348px;
 
     }
 
@@ -1435,20 +1440,20 @@ form {
     } 
     .para{
         font-size: 15px;
-        margin:20px ;
+        margin:5%;
     }
 }
 @media(max-width:320px){
     .color-line-resp {
         display: block;
         position: absolute;
-        top: 5625px;
+        top: 5650px;
         overflow-x: hidden;
         right: 0px;
         width: 100vw;
     }
     .para{
         font-size: 14px;
-        margin:20px 43px;
+        margin: 2% 15%;
     }
 }

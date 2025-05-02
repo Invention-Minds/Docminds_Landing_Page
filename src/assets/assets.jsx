@@ -18,7 +18,7 @@ import facebookimg from "./Images/facebook-img.svg";
 import facebook from "./Images/Facebook.svg";
 import fuchsia from "./Images/fuchsia.svg";
 import Groupline from "./Images/Groupline.svg";
-import instaimg from "./Images/insta-img.svg";
+import instaimg from "./Images/instagram-img.svg";
 import insta from "./Images/instagram.svg";
 import iphone from "./Images/iPhone.svg";
 import lightconversion from "./Images/light-conversion.svg";
@@ -53,6 +53,8 @@ import tower from "./Images/tower.svg";
 import twitter from "./Images/Twitter.svg";
 import twitterimg from "./Images/twitter-img.svg";
 import yellowcolor from "./Images/yellowcolor.svg";
+import youtubeimg from "./Images/youtube-img.svg";
+import youtube from "./Images/youtube.svg";
 
 
 
@@ -113,7 +115,9 @@ const assets = {
     tower,
     twitter,
     twitterimg,
-    yellowcolor
+    yellowcolor,
+    youtubeimg,
+    youtube
 };
 
 export default assets

@@ -292,10 +292,11 @@ const Homepage = () => {
                             </form>
 
                             <div className='form-imgs'>
-                                <a href="https://x.com/i/flow/login"><img  className='cursor' src={assets.twitter} alt="" /></a>
-                                <a href="https://www.facebook.com/"><img className='cursor' src={assets.facebook} alt="" /></a>
-                                <a href="https://www.instagram.com/"><img className='cursor' src={assets.insta} alt="" /></a>
-                                <a href="https://www.linkedin.com/login"><img className='cursor' src={assets.linkedin} alt="" /></a>
+                                {/* <a href="https://x.com/i/flow/login"><img  className='cursor' src={assets.twitter} alt="" /></a> */}
+                                {/* <a href="https://www.facebook.com/"><img className='cursor' src={assets.facebook} alt="" /></a> */}
+                                <a href="https://www.instagram.com/invention_minds2023?igsh=Y3djbTVxem1pYWRw"><img className='cursor' src={assets.insta} alt="" /></a>
+                                <a href="https://www.linkedin.com/in/invention-minds-9160b8344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img className='cursor' src={assets.linkedin} alt="" /></a>
+                                <a href="https://www.youtube.com/channel/UCWG15z1YsG8Kv2VJ37O8iHA"><img className='youtube' src={assets.youtube} alt="" /></a>
                             </div>
                         </div>
                     </div>
@@ -303,10 +304,11 @@ const Homepage = () => {
             </div>
             <div className='container-6'>
                 <div className="imgs">
-                    <img className='facebook cursor back-ground' src={assets.facebookimg} alt="" />
-                    <img className='insta cursor back-ground' src={assets.instaimg} alt="" />
-                    <img className='twitter cursor back-ground' src={assets.twitterimg} alt="" />
-                    <img className='linkedin cursor back-ground' src={assets.linkedinimg} alt="" />
+                    {/* <img className='facebook cursor back-ground' src={assets.facebookimg} alt="" /> */}
+                    <a href="https://www.instagram.com/invention_minds2023?igsh=Y3djbTVxem1pYWRw"><img className='insta cursor back-ground' src={assets.instaimg} alt="" /></a>
+                    {/* <img className='twitter cursor back-ground' src={assets.twitterimg} alt="" /> */}
+                    <a href="https://www.linkedin.com/in/invention-minds-9160b8344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img className='linkedin cursor back-ground' src={assets.linkedinimg} alt="" /></a>
+                    <a href="https://www.youtube.com/channel/UCWG15z1YsG8Kv2VJ37O8iHA"><img className='back-ground' src={assets.youtubeimg} alt="" /></a>
                 </div>
                 <div className='part-12'>
                     <button className='btn-3 cursor'><img className='btn-img' src={assets.logo} alt="" />DocMinds</button>
