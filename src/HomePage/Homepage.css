@@ -511,7 +511,7 @@
 
 .demo-color {
     position: absolute;
-    top: 723%;
+    top: 620%;
     right: 792px;
 }
 
@@ -1009,7 +1009,7 @@ form {
     .color-line-resp {
         display: block;
         position: absolute;
-        top: 6101px;
+        top: 5390px;
         height: 1000px;
         overflow-x: hidden;
         width: 100vw;
@@ -1380,7 +1380,7 @@ form {
     .color-line-resp {
         display: block;
         position: absolute;
-        top: 6020px;
+        top: 5453px;
         overflow-x: hidden;
         right: 0px;
         width: 100vw;
@@ -1438,7 +1438,7 @@ form {
     .color-line-resp {
         display: block;
         position: absolute;
-        top: 6220px;
+        top: 5625px;
         overflow-x: hidden;
         right: 0px;
         width: 100vw;

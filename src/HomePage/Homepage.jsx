@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import './HomePage.css'
 import { useForm } from "react-hook-form";
 import Slide from '../swiper/swiper';
-import Keyfeatures from '../keyfeatures/keyfeatures';
+import Keyfeatures from '../keyfeatures/Keyfeatures';
 import emailjs, { sendForm } from '@emailjs/browser';
 
 
@@ -167,7 +167,7 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
-            <div className='container-3' ref={About}>
+            {/* <div className='container-3' ref={About}>
                 <div className='slide-part'>
                     <div className="about-part">
                         <div>
@@ -175,7 +175,7 @@ const Homepage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className='container-4'>
                 <div className="request-demo-part">
                     <div>
