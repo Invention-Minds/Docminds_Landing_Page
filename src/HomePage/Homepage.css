@@ -1038,9 +1038,9 @@ form {
         font-size: 16px;
     }
 
-    .para-width {
+    /* .para-width {
         width: 100%;
-    }
+    } */
 
     .width {
         width: 100%;
@@ -1433,6 +1433,10 @@ form {
         font-size: 54px;
         width: 100;
     } 
+    .para{
+        font-size: 15px;
+        margin:20px ;
+    }
 }
 @media(max-width:320px){
     .color-line-resp {
@@ -1442,5 +1446,9 @@ form {
         overflow-x: hidden;
         right: 0px;
         width: 100vw;
+    }
+    .para{
+        font-size: 14px;
+        margin:20px 43px;
     }
 }
