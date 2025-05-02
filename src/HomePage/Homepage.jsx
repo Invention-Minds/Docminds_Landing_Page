@@ -2,7 +2,8 @@ import React, { useRef } from 'react'
 import './HomePage.css'
 import { useForm } from "react-hook-form";
 import Slide from '../swiper/swiper';
-import Keyfeatures from '../keyfeatures/Keyfeatures';
+// import Keyfeatures from '../keyfeatures/Keyfeatures';
+import Keyfeatures from '../keyfeatures/keyfeatures';
 import emailjs, { sendForm } from '@emailjs/browser';
 
 
