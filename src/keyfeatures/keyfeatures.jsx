@@ -1,5 +1,5 @@
 import React from 'react'
-import './Keyfeatures.css';
+import 'D:/Docminds HomePage/DocmindHomepage/src/Keyfeatures/Keyfeatures.css'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
