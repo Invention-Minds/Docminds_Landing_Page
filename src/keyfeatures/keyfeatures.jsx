@@ -3,19 +3,19 @@ import './Keyfeatures.css'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
-import  'swiper/css';
+import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import {Autoplay, Pagination, Navigation} from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import assets from '../assets/assets';
 
 const Keyfeatures = () => {
     return (
         <div className='root'>
             <div className='keyfeatures-part-2'>
-                <Swiper    
+                <Swiper
                     centeredSlides={false} // Disable centered slides  
                     initialSlide={1} // Start with first slide active
                     loop={true}
@@ -25,13 +25,15 @@ const Keyfeatures = () => {
                         disableOnInteraction: false,
                     }}
                     pagination={false}
+                    grabCursor={true}
                     navigation={false}
-                    modules={[Autoplay,Pagination, Navigation]}
+                    modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
+                   
                 >
 
                     <SwiperSlide >
-                        <div className='card-1' >
+                        <div className='card-1'>
                             <img className='card-img' src={assets.threestars} alt="" />
                             <div className='card-headding'>Smart Appointment Management</div>
                             <div className='card-para'>Book, cancel, reschedule, or transfer appointments across OPD, MHC and services - all in one place with real-time check-ins and automated notifications.</div>

@@ -17,7 +17,7 @@ import executive from "./Images/executive-img.svg";
 import facebookimg from "./Images/facebook-img.svg";
 import facebook from "./Images/Facebook.svg";
 import fuchsia from "./Images/fuchsia.svg";
-import Groupline from "./Images/Groupline.svg";
+import Groupline from "./Images/Groupline.png";
 import instaimg from "./Images/instagram-img.svg";
 import insta from "./Images/instagram.svg";
 import iphone from "./Images/iPhone.svg";

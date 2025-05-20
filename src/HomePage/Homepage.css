@@ -1,3 +1,4 @@
+
 * {
     margin: 0px;
 }
@@ -46,7 +47,7 @@
 .container-1 {
     background: #0F172A;
     width: 100%;
-    height: 90%;
+    height: auto;
 }
 
 .logo {
@@ -107,7 +108,8 @@
 
 .part2-1 {
     position: relative;
-    top: -150px;
+    top: -10px;
+    width: 85%;
 }
 
 .headding {
@@ -119,6 +121,10 @@
     line-height: 110%;
     /* 105.6px */
     /* position: relative; */
+}
+.doctor-img-2{
+    position: relative;
+    left: 80px;
 }
 
 .sub-headding {
@@ -160,15 +166,20 @@
 
 .yellow-color {
     position: absolute;
-    top: 753px;
+    top: 700px;
     right: 1200px;
     width: 592px;
+    border-radius: 592px;
+    opacity: 0.1;
+    background: var(--Yellow-400, #FACC15);
+    filter: blur(150px);
 
 }
 
+
 .fuchsia-color {
     position: absolute;
-    top: 190%;
+    top: 207%;
     left: 61%;
     width: 592px;
     height: 592px;
@@ -191,6 +202,8 @@
     padding: 16px;
     justify-content: center;
     align-items: center;
+    width: 170px;
+    height: 56px;
     /* Button/L */
     border-radius: 50px;
     border: 2px solid var(--White, #FFF);
@@ -207,6 +220,12 @@
     letter-spacing: 0.5px;
     cursor: pointer;
 }
+.scale:hover {
+    transform: scale(1.1);
+}
+.trans {
+    transition: 0.3s;
+}
 
 .btn2 {
     display: flex;
@@ -215,6 +234,8 @@
     align-items: center;
     border-radius: 50px;
     color: var(--White, #FFF);
+    width: 180px;
+    height: 56px;
     /* Button/L */
     font-family: Roboto;
     font-size: 20px;
@@ -230,8 +251,8 @@
 
 .main-img {
     position: relative;
-    right: 200px;
-    top: -122px;
+    right:0px;
+    top: 0px;
 }
 
 .sub-img {
@@ -260,15 +281,15 @@
 }
 
 .part3 {
-    /* display: grid;
-    grid-template-columns: 60% 40%; */
-    display: flex;
-    justify-content: center;
-    gap: 100px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    /* display: flex;
+    justify-content: center; */
+    gap: 10px;
     align-items: center;
-    padding: 0px 80px;
+    margin: 0px 80px;
     position: relative;
-    top: -179px;
+    top:50px;
 
 }
 
@@ -307,7 +328,7 @@
 .keyfeatures {
     padding: 20px;
     position: relative;
-    top: -150px;
+    top: 100px;
 }
 
 .keyfeatures-part-1 {
@@ -330,16 +351,23 @@
 .part5 {
     padding: 50px 0px;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
     align-items: center;
     position: relative;
-    top: -104px;
+    top: 30px;
+    left: 25px;
 }
 
 .part5-2 {
-    padding: 0px 20px 0px 0px;
+    position: relative;
+    top: 90px;
+    right: 30px;
+    margin: 0px 8% 0px 0px ;
 }
-
+.img1{
+    position:relative;
+    left: 5%;
+}
 .management-part-2 {
     width: 100%;
     height: auto;
@@ -362,6 +390,9 @@
     font-weight: 900;
     line-height: 110%;
     /* 44px */
+}
+.admin-part-2{
+    padding-left: 60px;
 }
 
 .sub-headding-3 {
@@ -390,7 +421,8 @@
 
 .flex {
     display: flex;
-    padding: 50px 5px 0px 80px;
+    margin: 0px 5%;
+    padding-top: 5%;
     align-items: center;
 }
 
@@ -408,7 +440,7 @@
 }
 
 .doctor-part-1 {
-    padding: 20px;
+    padding-left: 60px;
 }
 
 .container-3 {
@@ -455,10 +487,12 @@
     background: rgba(20, 28, 46, 0.98);
     position: relative;
     top: 70px;
+    left: 125px;
     display: flex;
     justify-content: space-around;
-    padding: 50px 50px;
-    margin: 20px;
+    width: 1280px;
+    height: 580px;
+    flex-shrink: 0;
 }
 .flex-1 {
     width: 50%;
@@ -469,7 +503,7 @@
 }
 .demo-img{
     width: 370px;
-    /* height: 500px; */
+    height: 500px;
     flex-shrink: 0;
 }
 
@@ -511,8 +545,11 @@
 
 .demo-color {
     position: absolute;
-    top: 620%;
-    right: 792px;
+    top: 610%;
+    right: 1000px;
+    width: 892px;
+    height: 892px;
+    flex-shrink: 0;
 }
 
 .demo-para {
@@ -660,7 +697,7 @@
 }
 
 .font-width {
-    width: 100%;
+    width: 120%;
 }
 
 .form-part-2 a {
@@ -727,7 +764,7 @@ form {
 }
 
 .input-name {
-    width: 445px;
+    width: 512px;
     height: 20px;
     flex-shrink: 0;
 }
@@ -737,16 +774,16 @@ form {
 }
 
 .input-msg {
-    width: 512px;
+    width: 90%;
     height: 200px;
 }
 
 .input-number {
-    width: 200px;
+    width: 94%;
 }
 
 .input-mail {
-    width: 200px;
+    width: 85%;
 }
 
 .gap {
@@ -787,8 +824,10 @@ form {
 
 .form-imgs {
     display: flex;
-    justify-content: end;
+    justify-content: start;
     gap: 20px;
+    position: relative;
+    right: 25px;
 }
 
 .cursor {
@@ -825,7 +864,7 @@ form {
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -844,6 +883,7 @@ form {
     justify-content: center;
     align-items: center;
     font-family: Roboto;
+    font-weight: 500;
     gap: 10px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -872,10 +912,14 @@ form {
     line-height: normal;
 }
 
+.pb{
+    padding-bottom: 70px;
+}
+
 .imgs {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
+    align-items: end;
     gap: 40px;
     padding: 50px 0px;
 
@@ -902,13 +946,25 @@ form {
 }
 
 .back-ground {
-    border-radius: 50%;
-    background-color: #FFF;;
+    /* border-radius: 50%; */
+    /* background-color: #FFF;; */
     width: 30px;
     height: 30px;
     flex-shrink: 0;
     aspect-ratio: 1/1;
-    padding: 2px;
+    /* padding: 2px; */
+}
+.img{
+    width: 140%;
+}
+.about{
+    text-decoration: none;
+    color: var(--Cold-Grey-white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .youtube{
@@ -953,6 +1009,9 @@ form {
     .nav-list {
         display: none;
     }
+    .font-width {
+        width: 110%;
+    }
 
     .nav {
         display: flex;
@@ -966,6 +1025,7 @@ form {
         right: 0px;
         height: 2393px;
         overflow: hidden;
+        top: 0px;
     }
 
     .sub-img-resp {
@@ -980,7 +1040,8 @@ form {
     .tablet-img-resp {
         display: block;
         position: relative;
-        top: 50px;
+        top: -80px;
+        right: 26px;
     }
 
     .img1 {
@@ -1013,8 +1074,8 @@ form {
     .color-line-resp {
         display: block;
         position: absolute;
-        top: 5390px;
-        height: 1000px;
+        top: 5405px;
+        height: 864px;
         overflow-x: hidden;
         width: 100vw;
         /* right: -147px; */
@@ -1060,12 +1121,12 @@ form {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding: 30px;
-        margin: 20px;
+        padding: 30px 0px;
+       
     }
 
     .btn1,.btn2 {
-        font-size: 15px;
+        font-size: 14px;
         width: 141px;
         height: 48px;
     }
@@ -1074,14 +1135,11 @@ form {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        padding: 10px;
-        margin: 100px 20px;
-        gap: 20px;
+        /* padding: 10px; */
+        margin:0px 20px;
+        /* gap: 20px; */
     }
 
-    .part3-2 {
-        margin: 0px;
-    }
 
     .sub-headding-1 {
         font-size: 30px;
@@ -1095,7 +1153,7 @@ form {
     .part3-2 {
         text-align: center;
         padding: 10px;
-        margin-top: 150px;
+        /* margin-top: 150px; */
     }
 
     .color1 img {
@@ -1112,9 +1170,15 @@ form {
     .part5 {
         display: flex;
         flex-direction: column-reverse;
-        padding: 10px;
+        /* padding: 10px; */
         text-align: center;
-        margin-top: -270px;
+        margin-top:0px;
+    }
+    .part5-2 {
+        position: relative;
+        top: -130px;
+        right: 30px;
+        margin: 0px 8% 0px 8%;
     }
 
     .gap1 {
@@ -1124,6 +1188,12 @@ form {
     .img1 {
         width: 100%;
         height: auto;
+    }
+    .admin-part-2{
+        padding-left: 0px;
+    }
+    .flex{
+        margin: 0px;
     }
 
     .sub-headding-2 {
@@ -1136,11 +1206,15 @@ form {
         /* overflow-x: scroll; */
         overflow: auto;
     }
+    .keyfeatures-part-1 {
+        display: flex;
+        text-align: center;
+    }
 
     .keyfeatures {
         padding: 20px;
         position: relative;
-        top: -300px;
+        top: 0px;
     }
 
     .management {
@@ -1167,7 +1241,7 @@ form {
     }
 
     .doctor-part-1 {
-        padding: 22px;
+        padding:0px 20px;
         margin-top: -73px;
     }
 
@@ -1209,13 +1283,16 @@ form {
     }
 
     .request-demo-part-1 {
+        width: 350px;
+        /* height: 670px; */
+        flex-shrink: 0;
         height: auto;
         display: flex;
         flex-direction: column;
-        margin: 10px;
         padding: 20px;
         text-align: center;
-        
+        position: relative;
+        left: 20px;  
     }
 
     .request-demo-part{
@@ -1332,7 +1409,7 @@ form {
     }
 
     .form-imgs {
-        margin-right: 100px;
+        margin-right: 14%;
     }
 
     .part-12 {
@@ -1368,6 +1445,9 @@ form {
 
     .imgs {
         padding: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
     }
 
     .alert-msg {
@@ -1378,6 +1458,7 @@ form {
         margin-left: 100px;
     }
 
+    
 }
 
 @media(max-width:380px) {
@@ -1385,10 +1466,19 @@ form {
     .color-line-resp {
         display: block;
         position: absolute;
-        top: 5453px;
+        top: 5495px;
         overflow-x: hidden;
         right: 0px;
         width: 100vw;
+    }
+
+    .btn2,.btn1{
+        font-size: 14px;
+        width: 160px;
+        height: 48px;
+    }
+    .headding{
+        font-size: 47px;
     }
 
     .input-name {
@@ -1422,12 +1512,16 @@ form {
         position: relative;
         top: 0px;
     }
+    .sub-headding-1 {
+        font-size: 22px;
+        /* padding: 10px; */
+    }
     
     .btn-part{
         margin-right:26% ;
     }
     .form-imgs{
-        margin-right: 27%;
+        margin-right: 23%;
     }
     .form-sub-headding-2{
         font-size: 20px;
@@ -1440,20 +1534,57 @@ form {
     } 
     .para{
         font-size: 15px;
-        margin:5%;
+        margin:10%;
+    }
+    .request-demo-part-1 {
+        width: 290px;
+        /* height: 670px; */
+        flex-shrink: 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        left: 20px;  
     }
 }
 @media(max-width:320px){
     .color-line-resp {
         display: block;
         position: absolute;
-        top: 5650px;
+        top: 5665px;
         overflow-x: hidden;
         right: 0px;
         width: 100vw;
     }
     .para{
         font-size: 14px;
-        margin: 2% 15%;
+        margin: 2% 10%;
+    }
+    .part2-2{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .request-demo-part-1 {
+        width: 257px;
+        /* height: 670px; */
+        flex-shrink: 0;
+        height: auto;
+        display: flex
+;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        left: 10px;
+    }
+    .demo-img {
+        width: 260px;
+        height: 400px;
+        flex-shrink: 0;
     }
 }

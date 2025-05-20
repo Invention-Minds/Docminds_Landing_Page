@@ -30,8 +30,6 @@
 .swiper-slide-active {
     opacity: 1;
     transform: scale(0.5);
-    /* transform:translate3d(-10.5px, 0px, 0px); */
-    /* margin-left: 60px; */
 }
 
 .card-1{
@@ -78,7 +76,13 @@ element.style {
     .keyfeatures-part-2{
         width:583%;
        overflow-x: hidden !important;
-       margin-left: 25px;
+       margin-left: 43px;
+    }
+    .keyfeatures-part-1 {
+        display: flex;
+        align-items: center;
+        /* padding: 50px; */
+  
     }
 
     .card-1{
@@ -97,11 +101,27 @@ element.style {
         width: 250px;
         height: 340px;
         border-radius: 10px;
+        margin-left: 20px;
     }
     .card-headding{
         width: 96%;
     }
+  
+    
 }
-
+@media(max-width:320px){
+    .card-1 {
+        width: 230px;
+        height: 340px;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+    .card-para {
+        width: 200px;
+    }
+    .card-headding {
+        width: 90%;
+    }
+}
 
 
